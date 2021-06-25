@@ -6,6 +6,8 @@ target 'XiaoMei' do
   use_frameworks!
 
   # Pods for XiaoMei
+  pod 'Pods', :path => './PodLib/Development Pods'
+  
 
   target 'XiaoMeiTests' do
     inherit! :search_paths

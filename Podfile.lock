@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 560f86ee6714b4a4e7dbaf25c140b04c98361715
+PODS:
+  - Pods (0.0.1)
+
+DEPENDENCIES:
+  - Pods (from `./PodLib/Development Pods`)
+
+EXTERNAL SOURCES:
+  Pods:
+    :path: "./PodLib/Development Pods"
+
+SPEC CHECKSUMS:
+  Pods: e77fa151e5ae3f82ccb4d644a2d41f5fe3bff304
+
+PODFILE CHECKSUM: 91167b86be60502b1ceecf2aacd8fca2051a1967
 
 COCOAPODS: 1.9.3
