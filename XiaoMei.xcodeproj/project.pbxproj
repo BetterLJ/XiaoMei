@@ -16,6 +16,9 @@
 		0E6694E7268589E8000DEE78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6694E6268589E8000DEE78 /* main.m */; };
 		0E6694F1268589E9000DEE78 /* XiaoMeiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6694F0268589E9000DEE78 /* XiaoMeiTests.m */; };
 		0E6694FC268589E9000DEE78 /* XiaoMeiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6694FB268589E9000DEE78 /* XiaoMeiUITests.m */; };
+		616560787F9D3799964A03C0 /* Pods_XiaoMeiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFE1CDE7AC5D8033E940F1E /* Pods_XiaoMeiTests.framework */; };
+		625DBF70C2C03E9D65758D86 /* Pods_XiaoMei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7751859E6D0BC2FD206D9EB4 /* Pods_XiaoMei.framework */; };
+		B473BDFC1B721B411429B57E /* Pods_XiaoMei_XiaoMeiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ABBE6BD1C043C288F1CC08A /* Pods_XiaoMei_XiaoMeiUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,15 @@
 		0E6694F7268589E9000DEE78 /* XiaoMeiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiaoMeiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6694FB268589E9000DEE78 /* XiaoMeiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaoMeiUITests.m; sourceTree = "<group>"; };
 		0E6694FD268589E9000DEE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABBE6BD1C043C288F1CC08A /* Pods_XiaoMei_XiaoMeiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XiaoMei_XiaoMeiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		256819D66FB1037E5E02189D /* Pods-XiaoMei-XiaoMeiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoMei-XiaoMeiUITests.debug.xcconfig"; path = "Target Support Files/Pods-XiaoMei-XiaoMeiUITests/Pods-XiaoMei-XiaoMeiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3230E4500759973350AB994A /* Pods-XiaoMei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoMei.release.xcconfig"; path = "Target Support Files/Pods-XiaoMei/Pods-XiaoMei.release.xcconfig"; sourceTree = "<group>"; };
+		497DC7C4B102DB3EC5C341B2 /* Pods-XiaoMei-XiaoMeiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoMei-XiaoMeiUITests.release.xcconfig"; path = "Target Support Files/Pods-XiaoMei-XiaoMeiUITests/Pods-XiaoMei-XiaoMeiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5AFE1CDE7AC5D8033E940F1E /* Pods_XiaoMeiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XiaoMeiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7751859E6D0BC2FD206D9EB4 /* Pods_XiaoMei.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XiaoMei.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F206E05D6A6534FC8AA2CD /* Pods-XiaoMeiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoMeiTests.release.xcconfig"; path = "Target Support Files/Pods-XiaoMeiTests/Pods-XiaoMeiTests.release.xcconfig"; sourceTree = "<group>"; };
+		DACB31EEC8A53AEF3896614F /* Pods-XiaoMeiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoMeiTests.debug.xcconfig"; path = "Target Support Files/Pods-XiaoMeiTests/Pods-XiaoMeiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD2525ADC2DD7C0ABC1940BD /* Pods-XiaoMei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoMei.debug.xcconfig"; path = "Target Support Files/Pods-XiaoMei/Pods-XiaoMei.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				625DBF70C2C03E9D65758D86 /* Pods_XiaoMei.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				616560787F9D3799964A03C0 /* Pods_XiaoMeiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B473BDFC1B721B411429B57E /* Pods_XiaoMei_XiaoMeiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +103,8 @@
 				0E6694EF268589E9000DEE78 /* XiaoMeiTests */,
 				0E6694FA268589E9000DEE78 /* XiaoMeiUITests */,
 				0E6694D2268589E6000DEE78 /* Products */,
+				A1E2B32D3B39DEAD0BA372C6 /* Pods */,
+				FEBF1083D7BBAABD740F6879 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +154,30 @@
 			path = XiaoMeiUITests;
 			sourceTree = "<group>";
 		};
+		A1E2B32D3B39DEAD0BA372C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD2525ADC2DD7C0ABC1940BD /* Pods-XiaoMei.debug.xcconfig */,
+				3230E4500759973350AB994A /* Pods-XiaoMei.release.xcconfig */,
+				256819D66FB1037E5E02189D /* Pods-XiaoMei-XiaoMeiUITests.debug.xcconfig */,
+				497DC7C4B102DB3EC5C341B2 /* Pods-XiaoMei-XiaoMeiUITests.release.xcconfig */,
+				DACB31EEC8A53AEF3896614F /* Pods-XiaoMeiTests.debug.xcconfig */,
+				82F206E05D6A6534FC8AA2CD /* Pods-XiaoMeiTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FEBF1083D7BBAABD740F6879 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7751859E6D0BC2FD206D9EB4 /* Pods_XiaoMei.framework */,
+				1ABBE6BD1C043C288F1CC08A /* Pods_XiaoMei_XiaoMeiUITests.framework */,
+				5AFE1CDE7AC5D8033E940F1E /* Pods_XiaoMeiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E669500268589E9000DEE78 /* Build configuration list for PBXNativeTarget "XiaoMei" */;
 			buildPhases = (
+				6A3A8E5786929E36EF3AD40A /* [CP] Check Pods Manifest.lock */,
 				0E6694CD268589E6000DEE78 /* Sources */,
 				0E6694CE268589E6000DEE78 /* Frameworks */,
 				0E6694CF268589E6000DEE78 /* Resources */,
@@ -161,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E669503268589E9000DEE78 /* Build configuration list for PBXNativeTarget "XiaoMeiTests" */;
 			buildPhases = (
+				BCF0C1DE9C24D076D245FA00 /* [CP] Check Pods Manifest.lock */,
 				0E6694E8268589E9000DEE78 /* Sources */,
 				0E6694E9268589E9000DEE78 /* Frameworks */,
 				0E6694EA268589E9000DEE78 /* Resources */,
@@ -179,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E669506268589E9000DEE78 /* Build configuration list for PBXNativeTarget "XiaoMeiUITests" */;
 			buildPhases = (
+				232CAEE6A3B9738A2BA10518 /* [CP] Check Pods Manifest.lock */,
 				0E6694F3268589E9000DEE78 /* Sources */,
 				0E6694F4268589E9000DEE78 /* Frameworks */,
 				0E6694F5268589E9000DEE78 /* Resources */,
@@ -260,6 +304,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		232CAEE6A3B9738A2BA10518 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XiaoMei-XiaoMeiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A3A8E5786929E36EF3AD40A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XiaoMei-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCF0C1DE9C24D076D245FA00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XiaoMeiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E6694CD268589E6000DEE78 /* Sources */ = {
@@ -438,6 +551,7 @@
 		};
 		0E669501268589E9000DEE78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD2525ADC2DD7C0ABC1940BD /* Pods-XiaoMei.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +569,7 @@
 		};
 		0E669502268589E9000DEE78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3230E4500759973350AB994A /* Pods-XiaoMei.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,6 +587,7 @@
 		};
 		0E669504268589E9000DEE78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DACB31EEC8A53AEF3896614F /* Pods-XiaoMeiTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +607,7 @@
 		};
 		0E669505268589E9000DEE78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F206E05D6A6534FC8AA2CD /* Pods-XiaoMeiTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -510,6 +627,7 @@
 		};
 		0E669507268589E9000DEE78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 256819D66FB1037E5E02189D /* Pods-XiaoMei-XiaoMeiUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XiaoMeiUITests/Info.plist;
@@ -527,6 +645,7 @@
 		};
 		0E669508268589E9000DEE78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497DC7C4B102DB3EC5C341B2 /* Pods-XiaoMei-XiaoMeiUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XiaoMeiUITests/Info.plist;
