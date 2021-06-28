@@ -1,8 +1,14 @@
 PODS:
   - Pods (0.0.1)
+  - Protobuf (3.17.0)
 
 DEPENDENCIES:
   - Pods (from `./PodLib/Development Pods`)
+  - Protobuf
+
+SPEC REPOS:
+  trunk:
+    - Protobuf
 
 EXTERNAL SOURCES:
   Pods:
@@ -10,7 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Pods: e77fa151e5ae3f82ccb4d644a2d41f5fe3bff304
+  Protobuf: 7327d4444215b5f18e560a97f879ff5503c4581c
 
-PODFILE CHECKSUM: 91167b86be60502b1ceecf2aacd8fca2051a1967
+PODFILE CHECKSUM: 4750c436f60dde55ece198a39cf399b62ceb2bf8
 
 COCOAPODS: 1.9.3
