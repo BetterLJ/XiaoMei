@@ -8,7 +8,6 @@ target 'XiaoMei' do
   # Pods for XiaoMei
   pod 'Pods', :path => './PodLib/Development Pods'
   
-  
   target 'XiaoMeiTests' do
     inherit! :search_paths
     # Pods for testing
@@ -26,5 +25,13 @@ target 'ProtocolBuffer' do
   inherit! :search_paths
   
   pod 'Protobuf'
+  
+end
+
+target 'RealmDemo' do
+  use_frameworks!
+  inherit! :search_paths
+  
+  pod 'Realm'
   
 end

@@ -1,14 +1,19 @@
 PODS:
   - Pods (0.0.1)
   - Protobuf (3.17.0)
+  - Realm (10.10.0):
+    - Realm/Headers (= 10.10.0)
+  - Realm/Headers (10.10.0)
 
 DEPENDENCIES:
   - Pods (from `./PodLib/Development Pods`)
   - Protobuf
+  - Realm
 
 SPEC REPOS:
   trunk:
     - Protobuf
+    - Realm
 
 EXTERNAL SOURCES:
   Pods:
@@ -17,7 +22,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Pods: e77fa151e5ae3f82ccb4d644a2d41f5fe3bff304
   Protobuf: 7327d4444215b5f18e560a97f879ff5503c4581c
+  Realm: f501df41a4222c67850c77cf135d472192ecf294
 
-PODFILE CHECKSUM: 4750c436f60dde55ece198a39cf399b62ceb2bf8
+PODFILE CHECKSUM: d889a57a996a8aef68995c5c47aa9719eba6477a
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1
