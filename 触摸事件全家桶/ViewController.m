@@ -48,6 +48,7 @@
     btn2.backgroundColor = UIColor.blueColor;
     [btn2 addTarget:self action:@selector(btn2Click) forControlEvents:UIControlEventTouchUpInside];
     [btn addSubview:btn2];
+    //dev
 }
 
 - (void)actionTapView {
